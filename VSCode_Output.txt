@@ -1,0 +1,81 @@
+einsteinboricua@Denniss-MacBook-Pro Assignment07 %  /usr/bin/env /usr/bin/python3 /Users/einsteinboricua/.vscode/extensions/ms-pytho
+n.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 64998 -- /Users/einsteinboricua/Documents/_PythonClass/Assignment07/Assigm
+ent07_ErrorHandling.py 
+Let's run through a few scenarios where exceptions are thrown.
+
+Let's start with IndexError and TypeError exceptions.
+
+I have a list of major US airlines: 
+['American', 'Delta', 'United', 'Southwest', 'Frontier', 'Spirit', 'JetBlue', 'Alaska']
+Select a number between 0-7: 5
+You've picked Spirit
+
+Now, select a number outside that range: 99
+You picked a number outside the range and triggered an IndexError exception.
+This is what Python would say:
+list index out of range
+
+Press enter to continue...
+
+Now enter something other than a number: th
+By entering something other than a number, you triggered a TypeError exception.
+This is what Python would say:
+list indices must be integers or slices, not str
+
+Press enter to continue...
+
+Now, let's look at a ZeroDivisionError exception.
+Enter an integer other than zero: 30
+Enter another one: 3
+As it turns out 30 divided by 3 is 10.0
+But if we make the second number a 0...(press enter)
+
+We just triggered a ZeroDivisionError by dividing by 0.
+This is what Python would say:
+division by zero
+
+Press enter to continue...
+
+Here's an example of a ValueError.
+Enter a positive integer: 12
+The square root of that number is: 3.4641016151377544
+Now give me a negative number: -5
+You tried finding the square root of a negative number, triggering a ValueError exception.
+This is what Python would say:
+einsteinboricua@Denniss-MacBook-Pro Assignment07 %  cd /Users/einsteinboricua/Documents/_PythonClass/Assignment07 ; /usr/bin/env /us
+r/bin/python3 /Users/einsteinboricua/.vscode/extensions/ms-python.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 65015 -- /
+Users/einsteinboricua/Documents/_PythonClass/Assignment07/Assignment07_Pickling.py 
+I have four data types to pickle: an integer, a string, a list, and a dictionary.
+
+Here is the integer: 64
+Pickling the integer now...
+Pickled the integer
+Press enter to pickle the string.
+
+Here is the string: Python is cool
+Pickling the string now...
+Pickled the string
+Press enter to pickle the list
+
+Here is the list: ['United States', 'Canada', 'Mexico']
+Pickling the list now...
+Pickled the list
+Press enter to pickle the dictionary
+
+Here is the dictionary: {'Washington': 1, 'Lincoln': 16, 'FDR': 32}
+Pickling the dictionary now...
+Pickled the dictionary
+
+Press enter to unpickle the contents
+
+Here is the unpickled integer: 64
+Here is the unpickled String: Python is cool
+Here is the unpickled list: ['United States', 'Canada', 'Mexico']
+Here is the unpickled dictionary: {'Washington': 1, 'Lincoln': 16, 'FDR': 32}
+
+Review the file on the explorer for the contents.
+
+Press enter to exit
+einsteinboricua@Denniss-MacBook-Pro Assignment07 %
+
+![image](https://user-images.githubusercontent.com/5696784/186572123-04387c55-9583-47b7-8010-d7bc58c967c6.png)
