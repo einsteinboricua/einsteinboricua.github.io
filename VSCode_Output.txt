@@ -42,6 +42,20 @@ The square root of that number is: 3.4641016151377544
 Now give me a negative number: -5
 You tried finding the square root of a negative number, triggering a ValueError exception.
 This is what Python would say:
+math domain error
+
+Press enter to continue...
+
+Finally, let's look at the IOError.
+What's the filename you want to read from? Don't forget the extension: TestFile.txt
+Turns out the file doesn't exist and you triggered an IOError exception.
+This is what Python would say:
+[Errno 2] No such file or directory: 'TestFile.txt'
+
+Press enter to continue...
+
+All errors handled effectively and the program is allowed to end.
+Press enter to exit.
 einsteinboricua@Denniss-MacBook-Pro Assignment07 %  cd /Users/einsteinboricua/Documents/_PythonClass/Assignment07 ; /usr/bin/env /us
 r/bin/python3 /Users/einsteinboricua/.vscode/extensions/ms-python.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 65015 -- /
 Users/einsteinboricua/Documents/_PythonClass/Assignment07/Assignment07_Pickling.py 
@@ -77,5 +91,3 @@ Review the file on the explorer for the contents.
 
 Press enter to exit
 einsteinboricua@Denniss-MacBook-Pro Assignment07 %
-
-![image](https://user-images.githubusercontent.com/5696784/186572123-04387c55-9583-47b7-8010-d7bc58c967c6.png)
