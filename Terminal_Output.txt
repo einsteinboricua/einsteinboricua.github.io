@@ -1,0 +1,90 @@
+einsteinboricua@Denniss-MacBook-Pro Assignment07 % python3 Assigment07_ErrorHandling.py
+Let's run through a few scenarios where exceptions are thrown.
+
+Let's start with IndexError and TypeError exceptions.
+
+I have a list of major US airlines: 
+['American', 'Delta', 'United', 'Southwest', 'Frontier', 'Spirit', 'JetBlue', 'Alaska']
+Select a number between 0-7: 3
+You've picked Southwest
+
+Now, select a number outside that range: 34
+You picked a number outside the range and triggered an IndexError exception.
+This is what Python would say:
+list index out of range
+
+Press enter to continue...
+
+Now enter something other than a number: I love money
+By entering something other than a number, you triggered a TypeError exception.
+This is what Python would say:
+list indices must be integers or slices, not str
+
+Press enter to continue...
+
+Now, let's look at a ZeroDivisionError exception.
+Enter an integer other than zero: 40
+Enter another one: 8
+As it turns out 40 divided by 8 is 5.0
+But if we make the second number a 0...(press enter)
+
+We just triggered a ZeroDivisionError by dividing by 0.
+This is what Python would say:
+division by zero
+
+Press enter to continue...
+
+Here's an example of a ValueError.
+Enter a positive integer: 36
+The square root of that number is: 6.0
+Now give me a negative number: -36
+You tried finding the square root of a negative number, triggering a ValueError exception.
+This is what Python would say:
+math domain error
+
+Press enter to continue...
+
+Finally, let's look at the IOError.
+What's the filename you want to read from? Don't forget the extension: TestFile.txt
+Turns out the file doesn't exist and you triggered an IOError exception.
+This is what Python would say:
+[Errno 2] No such file or directory: 'TestFile.txt'
+
+Press enter to continue...
+
+All errors handled effectively and the program is allowed to end.
+Press enter to exit.
+einsteinboricua@Denniss-MacBook-Pro Assignment07 % python3 Assignment07_Pickling.py
+I have four data types to pickle: an integer, a string, a list, and a dictionary.
+
+Here is the integer: 64
+Pickling the integer now...
+Pickled the integer
+Press enter to pickle the string.
+
+Here is the string: Python is cool
+Pickling the string now...
+Pickled the string
+Press enter to pickle the list
+
+Here is the list: ['United States', 'Canada', 'Mexico']
+Pickling the list now...
+Pickled the list
+Press enter to pickle the dictionary
+
+Here is the dictionary: {'Washington': 1, 'Lincoln': 16, 'FDR': 32}
+Pickling the dictionary now...
+Pickled the dictionary
+
+Press enter to unpickle the contents
+
+Here is the unpickled integer: 64
+Here is the unpickled String: Python is cool
+Here is the unpickled list: ['United States', 'Canada', 'Mexico']
+Here is the unpickled dictionary: {'Washington': 1, 'Lincoln': 16, 'FDR': 32}
+
+Review the file on the explorer for the contents.
+
+Press enter to exit
+einsteinboricua@Denniss-MacBook-Pro Assignment07 %
+
